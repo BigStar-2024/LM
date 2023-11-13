@@ -78,7 +78,7 @@ const GetInTouch = () => {
           variant="description"
           textDecoration="none"
           rel="noreferrer"
-          href="https://github.com/klawingco/kl_portfolio"
+          href="https://github.com/Brunom8218/LM_portfolio"
           target="_blank"
           _focus={{ boxShadow: 'none' }}
         >
