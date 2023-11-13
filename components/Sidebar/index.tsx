@@ -118,8 +118,6 @@ const Sidebar = () => {
             <br />I am software engineer that specializes at backend apis, front
             end integration, recently found myself studying UX too.
             <br />
-            Worked in blockchain field over 5 years with hands-on experience in DApps, DeFi, NFT Marketplace and
-            Solidity & Rust.
           </MotionText>
           <MotionButton
             size="lg"
