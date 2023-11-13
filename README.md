@@ -16,7 +16,7 @@ Site is Currently deployed at <b>Netlify</b>'s Free tier .
 
 ## Demo
 
-<img src="./public/demo.gif" alt="DEMO" />
+<!-- <img src="./public/demo.gif" alt="DEMO" /> -->
 
 
 ## Local Development
