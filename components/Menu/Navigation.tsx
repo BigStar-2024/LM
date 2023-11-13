@@ -34,9 +34,9 @@ const Navigation = () => {
 
   const borderColor = useColorModeValue('teal.500', 'cyan.200')
 
-  const IsLight = colorMode === ThemeMode.Light
-  const btnClassName = `${styles.blogBtn} ${!IsLight && styles.light}`
-  const Icon = IsLight ? SunIcon : MoonIcon
+  const IsDark = colorMode === ThemeMode.Light
+  const btnClassName = `${styles.blogBtn} ${!IsDark && styles.dark}`
+  const Icon = IsDark ? SunIcon : MoonIcon
   const onMenuItemClick = useCallback(
     (e) => {
       e.stopPropagation()
@@ -66,7 +66,7 @@ const Navigation = () => {
           onClick={toggleColorMode}
           padding={0}
         />
-        <MobileMenu isLightMode={IsLight} toggle={toggleOpen} isOpen={isOpen} />
+        <MobileMenu isDarkMode={IsDark} toggle={toggleOpen} isOpen={isOpen} />
       </Box>
 
       <MotionContainer
