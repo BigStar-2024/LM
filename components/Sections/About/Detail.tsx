@@ -71,7 +71,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           aria-label="I hate Tea!"
           hasArrow
         >
-          <Text as="span" variant="emphasis" textDecorationLine="line-through">
+          <Text as="span" variant="emphasis" textDecoration="line-through">
             tea
           </Text>
         </Tooltip>{' '}
