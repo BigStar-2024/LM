@@ -1,5 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
+// export type Company = 'AppStle' | 'Deloitte' | 'SCG' | 'Blotocol'
 export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
 
 export type CompanyDetail = {
@@ -19,23 +20,70 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
+  // AppStle: {
+  //   name: 'AppStle',
+  //   longName: 'Deloitte Consulthing Phils. Delivery Center',
+  //   subDetail: 'Consulthing Phils. Delivery Center',
+  //   url: 'https://www2.deloitte.com/',
+  //   position: 'Software Engineer Consultant',
+  //   duration: 'Sep 2021 - Present',
+  //   logo: {
+  //     light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
+  //     dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+  //   },
+  //   roles: [
+  //     <>
+  //       Contributed to the design and development of a comprehensive .NET
+  //       payment integration project for a client That covered credit card
+  //       payments and subscription management. Introduced Stripe as a new payment
+  //       provider within the system architecture. Participated in triaging,
+  //       fixing and adding new functionalitiesto multiple Azure powered APIs of
+  //       the same client.
+  //     </>,
+  //     <>
+  //       Worked as a Sitecore Backend on new{' '}
+  //       <Link
+  //         aria-label="Deloitte Digital AU"
+  //         href="https://www.deloittedigital.com.au/"
+  //         target="_blank"
+  //         rel="noreferrer"
+  //       >
+  //         Deloitte Digital AU Site.
+  //       </Link>
+  //     </>,
+  //     <>
+  //       Udergone training for .NET Sitecore 10, Sitecore SXA and different
+  //       topologies it provides. and Passed{' '}
+  //       <Link
+  //         aria-label="Sitecore 10 .NET Developer Certification"
+  //         href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
+  //         target="_blank"
+  //         rel="noreferrer"
+  //       >
+  //         Sitecore 10 .NET Developer Certification.
+  //       </Link>
+  //     </>,
+  //   ],
+  // },
   Deloitte: {
     name: 'Deloitte',
     longName: 'Deloitte Consulthing Phils. Delivery Center',
     subDetail: 'Consulthing Phils. Delivery Center',
     url: 'https://www2.deloitte.com/',
     position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+    duration: 'Sep 2020 - Present',
     logo: {
       light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
       dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+        Contributed to the design and development of a comprehensive .NET
+        payment integration project for a client That covered credit card
+        payments and subscription management. Introduced Stripe as a new payment
+        provider within the system architecture. Participated in triaging,
+        fixing and adding new functionalitiesto multiple Azure powered APIs of
+        the same client.
       </>,
       <>
         Worked as a Sitecore Backend on new{' '}
@@ -49,8 +97,8 @@ export const Experiences: {
         </Link>
       </>,
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
+        Udergone training for .NET Sitecore 10, Sitecore SXA and different
+        topologies it provides. and Passed{' '}
         <Link
           aria-label="Sitecore 10 .NET Developer Certification"
           href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
@@ -68,7 +116,7 @@ export const Experiences: {
     subDetail: 'via Prosource BPO',
     url: 'https://www.scentregroup.com/',
     position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+    duration: 'Feb 2019 - Sep 2020',
     logo: {
       light: '/worked_at_logos/scg/SCG_400x400.jpg',
       dark: '/worked_at_logos/scg/SCG.png',
@@ -108,7 +156,7 @@ export const Experiences: {
         Responsys into new platform called Braze.
       </>,
       <>
-        Hired at early 2020, first major task was helping with selecting a new
+        Hired at early 2019, first major task was helping with selecting a new
         marketing vendor that can scale and also enable us to have
         personalisation as well, selecting{' '}
         <Link
@@ -129,7 +177,7 @@ export const Experiences: {
     subDetail: 'formerly IVP Global Inc.',
     url: 'https://blotocol.com/',
     position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+    duration: 'Nov 2017 - Feb 2018',
     logo: {
       light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
       dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
@@ -140,7 +188,7 @@ export const Experiences: {
         statistics similar to Facebook Ads.
       </>,
       <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
+        In 2017 got promoted as Senior Software Engineer and worked with Cryto
         Exchange, Smart Contracts and other APIs using several techs such as
         NodeJS, .NET Core and React.
       </>,
@@ -157,6 +205,7 @@ export const Experiences: {
 }
 
 export const ExperiencesList = [
+  // Experiences.AppStle,
   Experiences.Deloitte,
   Experiences.SCG,
   Experiences.Blotocol,

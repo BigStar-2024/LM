@@ -54,13 +54,3 @@ and it should open at
 
 Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), just merge a feat branch to master branch and you're good. 
 
-
-## Credits
-
-Logo and Avatar are made by my friend : <b>KojiroArt</b>.
-Please check him out at his [`twitter`](https://twitter.com/kojiro_ai) account.  
-
-And of course 
-Made with Love and :coffee:
-
-KL 
