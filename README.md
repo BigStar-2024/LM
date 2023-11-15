@@ -10,8 +10,8 @@ This contains bits of my details. In future I am planning to get this to cater m
 Site is Currently deployed at <b>Netlify</b>'s Free tier .
 
 > Build Status 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys)
+<!-- 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys) -->
 
 
 ## Demo
